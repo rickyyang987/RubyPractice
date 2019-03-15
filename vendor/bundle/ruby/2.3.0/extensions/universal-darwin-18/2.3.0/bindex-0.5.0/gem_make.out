@@ -1,0 +1,15 @@
+current directory: /Users/rickyyang/RubyTest/sample_app/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190315-27008-1yx9j0d.rb extconf.rb
+creating Makefile
+
+current directory: /Users/rickyyang/RubyTest/sample_app/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/rickyyang/RubyTest/sample_app/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/rickyyang/RubyTest/sample_app/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190315-27008-1jm1d67/bindex
