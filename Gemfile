@@ -41,9 +41,6 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
-# Make errors better looking
-gem 'better_errors', '~> 2.5', '>= 2.5.1'
-
 # Bulma CSS
 gem 'bulma-rails', '~> 0.7.4'
 
@@ -60,7 +57,10 @@ group :development do
   # Guard is a command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.15'
   #Guard::LiveReload automatically reloads your browser when 'view' files are modified.
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+
+  # Make errors better looking
+  gem 'better_errors', '~> 2.5', '>= 2.5.1'
 end
 
 group :test do
